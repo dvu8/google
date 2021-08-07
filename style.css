@@ -1,0 +1,19 @@
+#google-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.5%;
+}
+
+#search-bar input{
+    background-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(201, 202, 204);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 40em;
+    padding: 10px;
+}
