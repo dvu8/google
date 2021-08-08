@@ -1,3 +1,31 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#top-nav{
+    display: flex;
+    width: 100%;
+    position:relative;
+    justify-content: space-between;
+}
+
+#top-nav #about{
+    padding: 0px 15px;
+}
+
+#gmail{
+    padding: 0px 20px;
+}
+#top-nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 5px;
+}
 #google-image img{
     display: block;
     margin-left: auto;
@@ -14,6 +42,49 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    width: 40em;
+    height: 1.5em;
+    width: 42em;
     padding: 10px;
+}
+
+#buttons{
+    display: flex;
+    margin-top: 1.5em;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.item{
+
+    margin: 0 1em;
+    padding: .8em;
+    width: 10em;
+    border-color: white;
+    background-color: rgba(243, 243, 243, 0.883);
+    border-style:hidden;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#bot-nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+
+}
+#bot-nav ul{
+    padding: 0 15px;
+}
+#bot-nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
 }
